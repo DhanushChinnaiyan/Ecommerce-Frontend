@@ -1,0 +1,7 @@
+export const userLoginApi = "https://ecommerce-backend-jhra.onrender.com/userentry/login"
+export const userSignupApi = "https://ecommerce-backend-jhra.onrender.com/userentry/signup"
+export const userForgotPasswordApi = "https://ecommerce-backend-jhra.onrender.com/userentry/genotp"
+export const useResetPasswordApi = "https://ecommerce-backend-jhra.onrender.com/userentry/verifyotp"
+export const urlVerificationApi = "https://ecommerce-backend-jhra.onrender.com/urlverification"
+export const usePasswordChangeApi = "https://ecommerce-backend-jhra.onrender.com/userentry/resetpassword"
+export const productApi = "https://ecommerce-backend-jhra.onrender.com"

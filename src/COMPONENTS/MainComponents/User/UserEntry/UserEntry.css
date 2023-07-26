@@ -1,0 +1,47 @@
+/* Links style */
+.Links{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+.Links>:nth-child(1),.Links>:nth-child(2){
+    font-size: calc(10px + 0.4vw);
+    
+}
+
+
+
+/* Signup Div Style */
+
+.signupDiv {
+
+    display: flex;
+    justify-content: center;
+    margin-top: 10vh;
+}
+
+/* login and forgotpassword DIV style */
+
+.loginDiv,.forgotPasswordDiv{
+    display: flex;
+    justify-content: center;
+    margin-top: 25vh;
+}
+
+
+/* Signup, Login and forgotpassword  inputs div style*/
+.signupInputDiv,.loginInputDiv,.forgotPasswordInputDiv {
+    display: flex;
+    flex-direction: column;
+    width: calc(300px + 7vw);
+    box-shadow: inset 0 0 calc(10px + 1vw) rgb(159, 159, 159);
+    border-radius: calc(5px + 0.2vw);
+    align-items: center;
+    padding: calc(5px + 1vw);
+
+}
+
+
+

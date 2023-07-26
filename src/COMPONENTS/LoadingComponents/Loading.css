@@ -1,0 +1,131 @@
+/* Overall loading */
+.mainLoading {
+    position: absolute;
+    top: 40%;
+    left: 48%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .mainLoading > div {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    animation: loading 1s linear infinite;
+    box-shadow: 0 2px 2px grey;
+  }
+
+  
+  
+  .mainLoading > div:nth-child(1) {
+    background-color: #FF3D57; 
+    animation-delay: -0.375s;
+  }
+  
+  .mainLoading > div:nth-child(2) {
+    background-color: #fca00e; 
+    animation-delay: -0.25s;
+  }
+  
+  .mainLoading > div:nth-child(3) {
+    background-color: #52c505; 
+    animation-delay: -0.125s;
+  }
+  
+  .mainLoading > div:nth-child(4) {
+    background-color: #39D7E3; 
+    animation-delay: 0s;
+  }
+  
+  @keyframes loading {
+    0% {
+      transform: translateY(0);
+    }
+    25% {
+      transform: translateY(-10px);
+    }
+    50% {
+      transform: translateY(0);
+    }
+    75% {
+      transform: translateY(10px);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+/* Body Loading */
+
+
+.mainBodyLoading{
+    height: 99vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    filter: blur(1.4px);
+    
+}
+
+.headerLoading{
+    height: 5vh;
+    width: 100%;
+    transition: background-color 0.9s ease-in-out;
+}
+.slidesLoading{
+    height: calc(30vh + 5vw);
+    width: 90%;
+    transition: background-color 0.9s ease-in-out;
+}
+
+.RecentlyViewedProductLoading{
+    margin: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: calc(5px + 1vw);
+    width: 90%;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.RecentlyViewedProductLoading>div{
+    height: calc(20px + 6vw);
+    width: calc(20px + 6vw);
+    transition: background-color 0.9s ease-in-out;
+}
+
+.categoryLoading{
+    height: calc(4vh + 1vw);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 50%;
+    border-radius: 10px;
+    margin: calc(4px + 0.3vw);
+}
+
+.categoryLoading>div{
+    height: calc(10px + 2.5vw);
+    width: calc(10px + 2.5vw);
+    transition: background-color 0.9s ease-in-out;
+}
+
+.ProductsLoading{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    padding: 10px;
+    border-radius: 10px;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.ProductsLoading>div{
+
+    height: calc(100px + 5vw);
+    width: calc(100px + 5vw);
+    transition: background-color 0.9s ease-in-out;
+}
