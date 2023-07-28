@@ -65,7 +65,7 @@ const Base = ({ children }) => {
               textAlign: "center",
             }}
           >
-            LOGO
+            Ecommercezilla
           </Typography>
           <div
             style={{ flexGrow: 4, display: "flex", justifyContent: "center" }}
